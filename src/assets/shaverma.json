@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "img/products/01.jpg",
+    "title": "Шаверма со свининой",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 200,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "imageUrl": "img/products/02.jpg",
+    "title": "Шаверма с курицей",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 190,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "img/products/03.jpg",
+    "title": "Шаверма веган",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 150,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "imageUrl": "img/products/04.jpg",
+    "title": "Шаверма веган VIP",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 180,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "imageUrl": "img/products/05.jpg",
+    "title": "Шаверма гавай свинина",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 220,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "imageUrl": "img/products/06.jpg",
+    "title": "Шаверма гавай курица",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 210,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "imageUrl": "img/products/07.jpg",
+    "title": "Шаверма грибная свинина",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 220,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "imageUrl": "img/products/08.jpg",
+    "title": "Шаверма грибная курица",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 240,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "imageUrl": "img/products/09.jpg",
+    "title": "Шаверма сырная курица",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 240,
+    "category": 4,
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "imageUrl": "img/products/10.jpg",
+    "title": "Шаверма сырная свинина",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 250,
+    "category": 4,
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "imageUrl": "img/products/11.jpg",
+    "title": "Шаверма фри свинина",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 230,
+    "category": 5,
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "imageUrl": "img/products/12.jpg",
+    "title": "Шаверма фри курица",
+    "types": ["обычный лаваш", "сырный лаваш"],
+    "sizes": ["mini", "medium", "big"],
+    "price": 220,
+    "category": 5,
+    "rating": 4
+  }
+]
