@@ -1,7 +1,7 @@
-import React from "react";
-import ContentLoader from "react-content-loader";
+import React from 'react';
+import ContentLoader from 'react-content-loader';
 
-const Skeleton = (props) => (
+const Skeleton: React.FC = (props) => (
   <ContentLoader
     className="shaverma-block"
     speed={1}

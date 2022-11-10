@@ -108,6 +108,28 @@ body {
   }
 }
 
+.full {
+  display: flex;
+  justify-content: space-between;
+
+  &__desc {
+    max-width: 600px;
+  }
+
+  &__desc p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  & .shaverma-block {
+    margin: 0;
+  }
+
+  & .shaverma-block__image {
+    width: 500px;
+  }
+}
+
 .container {
   width: $container-width;
   margin: 0 auto;
@@ -197,6 +219,7 @@ body {
       img {
         width: 80px;
         height: 80px;
+        border-radius: 20px;
       }
     }
 

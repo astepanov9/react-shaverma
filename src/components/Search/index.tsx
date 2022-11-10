@@ -1,41 +1,36 @@
-import React from "react";
-import debounce from "lodash.debounce";
-import { SearchContext } from "../../App";
+import React from 'react';
+import debounce from 'lodash.debounce';
+import { useSelector, useDispatch } from 'react-redux';
+import { setSearchValue } from '../../redux/slice/filterSlice';
 
-import styles from "./Search.module.scss";
+import styles from './Search.module.scss';
 
-function Search() {
-  const [value, setValue] = React.useState("");
-  const { setSearchValue } = React.useContext(SearchContext);
-  const inputRef = React.useRef();
+const Search: React.FC = () => {
+  const dispatch = useDispatch();
+  const [value, setValue] = React.useState<string>('');
+  const inputRef = React.useRef<HTMLInputElement>(null);
 
   const onClickClear = () => {
     setValue('');
-    setSearchValue('')
-    inputRef.current.focus();
+    dispatch(setSearchValue(''));
+    inputRef.current?.focus();
   };
 
   const updateSearchvalue = React.useCallback(
-    debounce((str) => {
-      setSearchValue(str);
+    debounce((str: any) => {
+      dispatch(setSearchValue(str));
     }, 500),
     []
   );
 
-  const onChangeInput = (event) => {
+  const onChangeInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
     updateSearchvalue(event.target.value);
   };
 
   return (
     <div className={styles.root}>
-      <svg
-        className={styles.searchIcon}
-        version="1.1"
-        x="0px"
-        y="0px"
-        viewBox="0 0 487.95 487.95"
-      >
+      <svg className={styles.searchIcon} version="1.1" x="0px" y="0px" viewBox="0 0 487.95 487.95">
         <g>
           <g>
             <path
@@ -79,12 +74,7 @@ function Search() {
         >
           <g data-name="Layer 2">
             <g data-name="close">
-              <rect
-                width="24"
-                height="24"
-                transform="rotate(180 12 12)"
-                opacity="0"
-              />
+              <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
               <path d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l4.29-4.3 4.29 4.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z" />
             </g>
           </g>
@@ -92,6 +82,6 @@ function Search() {
       )}
     </div>
   );
-}
+};
 
 export default Search;
