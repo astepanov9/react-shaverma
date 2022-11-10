@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-shaverma/static/css/main.ecd92f99.css",
+    "main.js": "/react-shaverma/static/js/main.555ed271.js",
+    "static/media/logo.png": "/react-shaverma/static/media/logo.78332650d78272007e1b.png",
+    "index.html": "/react-shaverma/index.html",
+    "main.ecd92f99.css.map": "/react-shaverma/static/css/main.ecd92f99.css.map",
+    "main.555ed271.js.map": "/react-shaverma/static/js/main.555ed271.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecd92f99.css",
+    "static/js/main.555ed271.js"
+  ]
+}
