@@ -15,3 +15,5 @@
     <li>React Pagination</li>
     <li>Lodash.Debounce</li>
 </ul>
+<h3>Ссылка:</h3>
+<p><a href="https://react-shaverma-as9.web.app/">react-shaverma</a></p>
