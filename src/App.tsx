@@ -7,7 +7,8 @@ import NotFound from './page/NotFound';
 import Cart from './page/Cart';
 import FullShaverma from './page/FullShaverma';
 
-function App() {
+const App = () => {
+
   return (
     <div className="wrapper">
       <Header />
@@ -23,6 +24,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
